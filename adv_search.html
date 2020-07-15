@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Linking the css style sheet-->
+    <link rel="stylesheet" href="css/advance.css">
+    <title>Google Advanced Search</title>
+
+</head>
+
+<body>
+    <!-- Top navigation bar containing the links to image, advanced-->
+    <div class="navbar">
+
+        <a href="google_search.html" class="g_search">Google Search</a>
+        <a href="https://www.google.co.in/intl/en/about/products?tab=wh" class="google_apps"><img
+                src="images/google_apps.png" alt="google apps grid" height="30px" width="30px"></a>
+        <a href="https://accounts.google.com/ServiceLogin"><button class="sign-in">Sign in</button></a>
+
+    </div>
+    <!-- Main part of the web-page containing the 4 vertically stacked search bars-->
+    <section>
+
+        <div class="namebar">
+            <span>Advanced Search</span>
+        </div>
+        <div class="border-line"></div>
+
+        <form action="https://www.google.com/search">
+
+            <div class="s-head">
+                <div class="title">
+                    <span>Find pages with...</span>
+                </div>
+                <div class="bar-area">&nbsp; </div>
+                <div class="example-area">
+                    <div class="-text">To do this in the search box.</div>
+                </div>
+            </div>
+
+            <div class="input">
+
+                <div class="container">
+                    <label for="all_three">all these words:</label>
+                    <input type="text" value="" autofocus="autofocus" id="all_three" name="as_q" class="textinput">
+                    <div class="sample-title">Type the important words: <span>tri-colour rat terrier</span>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <label for="exact_word">this exact word or phrase:</label>
+
+                    <input type="text" value="" id="exact-word" name="as_epq" class="textinput">
+
+
+                    <div class="sample-title">Put exact words in quotes: <span>"rat terrier"</span>
+                    </div>
+
+                </div>
+
+                <div class="container">
+                    <label for="any_of_the_word">any of these words:</label>
+
+                    <input type="text" value="" id="any_of_the_word" name="as_oq" class="textinput">
+
+
+                    <div class="sample-title">Type <span>OR</span> between all the words you want: <span>miniature OR
+                            standard</span> </div>
+
+                </div>
+
+                <div class="container">
+                    <label for="none_of_these">none of these words:</label>
+
+                    <input type="text" value="" id="none_of_these" name="as_eq" class="textinput">
+
+
+                    <div class="sample-title">Put a minus sign just before words that you don't want: <span><br>-rodent,
+                            -"Jack Russell"</span>
+                    </div>
+
+                </div>
+                <!--Advanced Search Button-->
+                <div class="submit-bar"> <input id="tbs" name="tbs" type="hidden" value="">
+                    <input class="submit-btn" value="Advanced Search" type="submit">
+                </div>
+            </div>
+        </form>
+
+        <div class="below_links">
+            <div class="border-line_bottom"></div>
+            <div class="footer_heading">
+                <div class="foot-title"><span>You can also...</span></div>
+            </div>
+            <div><a href="https://support.google.com/websearch?p=adv_pages_similar&amp;hl=en">Find pages
+                    that are similar to a URL</a></div>
+            <div><a href="https://support.google.com/websearch?p=adv_pages_visited&amp;hl=en">Search pages that you've
+                    visited</a></div>
+            <div><a href="https://support.google.com/websearch?p=adv_operators&amp;hl=en">Use operators in the search
+                    box</a></div>
+            <div><a href="https://www.google.com/preferences?hl=en-IN">Customise your search settings</a></div>
+        </div>
+
+    </section>
+    <!--Footer section containing the location and external links-->
+    <div class="footer">
+        <div class="location">India</div>
+        <div class="container-footer">
+            <div class="left">
+                <a href="#">Help</a>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
